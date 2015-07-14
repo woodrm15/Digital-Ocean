@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
 
-{!!Form::open()!!}
+
 	<h1>Clients Table</h1>
 	<table>
 		<thead>
@@ -28,4 +28,3 @@
 	<a href="{{URL::to('clients/create')}}"><input type="button" value="Create New Client"></a>
 	<a href="{{URL::to('/')}}"><input type="button" value="Back"></a>
 
-{!!Form::close()!!}
